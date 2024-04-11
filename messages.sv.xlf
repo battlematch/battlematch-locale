@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8845333403360885439" datatype="html">
+        <source>Deploy</source>
+        <target>Utplacera</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_deploy-panel.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <note priority="1" from="description">Deploy panel title</note>
+      </trans-unit>
+      <trans-unit id="3299096473446138739" datatype="html">
+        <source>DevLog 2024-04-09 Hello World! (read more...)</source>
+        <target>DevLog 2024-04-09 Hej Världen! (läs mer...)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_dev-log.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5813867925497374051" datatype="html">
+        <source>Map</source>
+        <target>Karta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_map-panel.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <note priority="1" from="description">Map panel title</note>
+      </trans-unit>
+      <trans-unit id="6619869754055745168" datatype="html">
+        <source>Match</source>
+        <target>Match</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_match-panel.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <note priority="1" from="description">Match panel title</note>
+      </trans-unit>
+      <trans-unit id="8397814887927533382" datatype="html">
+        <source>Mod</source>
+        <target>Mod</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_mod-panel.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <note priority="1" from="description">Mod panel title</note>
+      </trans-unit>
+      <trans-unit id="7564668544925207637" datatype="html">
+        <source>Replays</source>
+        <target>Repriser</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_replays-panel.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <note priority="1" from="description">Replays panel title</note>
+      </trans-unit>
+      <trans-unit id="7268724710243443192" datatype="html">
+        <source>Scenario</source>
+        <target>Scenario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_scenario-panel.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <note priority="1" from="description">Scenario panel title</note>
+      </trans-unit>
+      <trans-unit id="4930506384627295710" datatype="html">
+        <source>Settings</source>
+        <target>Inställningar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_settings-panel.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+        <note priority="1" from="description">Settigns panel title</note>
+      </trans-unit>
+      <trans-unit id="startPanelSandboxButton" datatype="html">
+        <source>Sandbox</source>
+        <target>Sandlåda</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startPanelScenarioButton" datatype="html">
+        <source>Scenario</source>
+        <target>Scenario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startPanelTutorialButton" datatype="html">
+        <source>Tutorial</source>
+        <target>Kom igång</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
+          <context context-type="linenumber">11,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startPanelReplaysButton" datatype="html">
+        <source>Replays</source>
+        <target>Repriser</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
