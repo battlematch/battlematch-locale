@@ -2,6 +2,38 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="3780312603830034411" datatype="html">
+        <source>Default (<x id="PH" equiv-text="this.currentLanguage"/>)</source>
+        <target>Förvald (<x id="PH" equiv-text="this.currentLanguage"/>)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmds/bmds_language.service.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2930047809353420100" datatype="html">
+        <source>English (<x id="PH" equiv-text="language"/>)</source>
+        <target>Engelska (<x id="PH" equiv-text="language"/>)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmds/bmds_language.service.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1110438335980508944" datatype="html">
+        <source>Swedish (<x id="PH" equiv-text="language"/>)</source>
+        <target>Svenska (<x id="PH" equiv-text="language"/>)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmds/bmds_language.service.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="997101035298087360" datatype="html">
+        <source>Unsupported (<x id="PH" equiv-text="language"/>)</source>
+        <target>Okänt (<x id="PH" equiv-text="language"/>)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmds/bmds_language.service.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="8845333403360885439" datatype="html">
         <source>Deploy</source>
         <target>Utplacera</target>
@@ -103,6 +135,34 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
           <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="87080899100416921" datatype="html">
+        <source>Latest stable (<x id="PH" equiv-text="versionService.getStableVersion()"/>)</source>
+        <target>Senaste stabila (<x id="PH" equiv-text="versionService.getStableVersion()"/>)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7477991678524742538" datatype="html">
+        <source>Latest beta (<x id="PH" equiv-text="versionService.getLatestVersion()"/>)</source>
+        <target>Senaste beta (<x id="PH" equiv-text="versionService.getLatestVersion()"/>)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3793211284166465670" datatype="html">
+        <source>Fixed version (<x id="PH" equiv-text="versionService.currentVersion"/>)</source>
+        <target>Specifik version (<x id="PH" equiv-text="versionService.currentVersion"/>)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
     </body>
