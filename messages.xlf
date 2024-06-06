@@ -45,30 +45,6 @@
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5813867925497374051" datatype="html">
-        <source>Map</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_map-panel.component.html</context>
-          <context context-type="linenumber">3,5</context>
-        </context-group>
-        <note priority="1" from="description">Map panel title</note>
-      </trans-unit>
-      <trans-unit id="6619869754055745168" datatype="html">
-        <source>Match</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_match-panel.component.html</context>
-          <context context-type="linenumber">3,5</context>
-        </context-group>
-        <note priority="1" from="description">Match panel title</note>
-      </trans-unit>
-      <trans-unit id="8397814887927533382" datatype="html">
-        <source>Mod</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_mod-panel.component.html</context>
-          <context context-type="linenumber">3,5</context>
-        </context-group>
-        <note priority="1" from="description">Mod panel title</note>
-      </trans-unit>
       <trans-unit id="7564668544925207637" datatype="html">
         <source>Replays</source>
         <context-group purpose="location">
@@ -76,14 +52,6 @@
           <context context-type="linenumber">3,5</context>
         </context-group>
         <note priority="1" from="description">Replays panel title</note>
-      </trans-unit>
-      <trans-unit id="7268724710243443192" datatype="html">
-        <source>Scenario</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_scenario-panel.component.html</context>
-          <context context-type="linenumber">3,5</context>
-        </context-group>
-        <note priority="1" from="description">Scenario panel title</note>
       </trans-unit>
       <trans-unit id="4930506384627295710" datatype="html">
         <source>Settings</source>
@@ -101,49 +69,38 @@
         </context-group>
       </trans-unit>
       <trans-unit id="startPanelScenarioButton" datatype="html">
-        <source>Scenario</source>
+        <source>Scenarios</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
           <context context-type="linenumber">8,10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="startPanelTutorialButton" datatype="html">
-        <source>Tutorial</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
-          <context context-type="linenumber">11,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="startPanelReplaysButton" datatype="html">
         <source>Replays</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
-          <context context-type="linenumber">14,16</context>
+          <context context-type="linenumber">11,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3669050121913566304" datatype="html">
-        <source>Stable (<x id="PH" equiv-text="versionService.getStableVersion()"/>)</source>
+        <source>Stable (<x id="PH" equiv-text="this.versionService.getStableVersion()"/>)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">113</context>
         </context-group>
       </trans-unit>
       <trans-unit id="123305201759419464" datatype="html">
-        <source>Latest (<x id="PH" equiv-text="versionService.getLatestVersion()"/>)</source>
+        <source>Latest (<x id="PH" equiv-text="this.versionService.getLatestVersion()"/>)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">115</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7988652715773474488" datatype="html">
-        <source>Fixed (<x id="PH" equiv-text="versionService.currentVersion"/>)</source>
+      <trans-unit id="3666195172774554282" datatype="html">
+        <source>Other (<x id="PH" equiv-text="version"/>)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
-          <context context-type="linenumber">45</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
     </body>
