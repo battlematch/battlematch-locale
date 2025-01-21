@@ -2,105 +2,88 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="3780312603830034411" datatype="html">
-        <source>Default (<x id="PH" equiv-text="this.getDefaultLanguage()"/>)</source>
+      <trans-unit id="accountPanelSignInButton" datatype="html">
+        <source>Sign in</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmds/bmds_language.service.ts</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="sourcefile">src/bmd/bmda/bmda_account-panel.component.html</context>
+          <context context-type="linenumber">11,12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2930047809353420100" datatype="html">
-        <source>English (<x id="PH" equiv-text="language"/>)</source>
+      <trans-unit id="accountPanelSignOutButton" datatype="html">
+        <source>Sign out</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmds/bmds_language.service.ts</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="sourcefile">src/bmd/bmda/bmda_account-panel.component.html</context>
+          <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1110438335980508944" datatype="html">
-        <source>Swedish (<x id="PH" equiv-text="language"/>)</source>
+      <trans-unit id="appSignInButton" datatype="html">
+        <source>Sign in</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmds/bmds_language.service.ts</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="sourcefile">src/bmd/bmda/bmda_app.component.html</context>
+          <context context-type="linenumber">29,31</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="997101035298087360" datatype="html">
-        <source>Unsupported (<x id="PH" equiv-text="language"/>)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmds/bmds_language.service.ts</context>
-          <context context-type="linenumber">60</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8845333403360885439" datatype="html">
-        <source>Deploy</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_deploy-panel.component.html</context>
-          <context context-type="linenumber">3,5</context>
-        </context-group>
-        <note priority="1" from="description">Deploy panel title</note>
-      </trans-unit>
-      <trans-unit id="3299096473446138739" datatype="html">
-        <source>DevLog 2024-04-09 Hello World! (read more...)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_dev-log.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7564668544925207637" datatype="html">
-        <source>Replays</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_replays-panel.component.html</context>
-          <context context-type="linenumber">3,5</context>
-        </context-group>
-        <note priority="1" from="description">Replays panel title</note>
-      </trans-unit>
-      <trans-unit id="4930506384627295710" datatype="html">
+      <trans-unit id="settingsPanelTitle" datatype="html">
         <source>Settings</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_settings-panel.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="sourcefile">src/bmd/bmda/bmda_settings-panel.component.html</context>
+          <context context-type="linenumber">6,7</context>
         </context-group>
-        <note priority="1" from="description">Settigns panel title</note>
+      </trans-unit>
+      <trans-unit id="versionStable" datatype="html">
+        <source>Stable (<x id="PH" equiv-text="this.versionService.getStableVersion()"/>)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmda/bmda_settings-panel.ts</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="versionLatest" datatype="html">
+        <source>Latest (<x id="PH" equiv-text="this.versionService.getLatestVersion()"/>)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmda/bmda_settings-panel.ts</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="versionOther" datatype="html">
+        <source>Other (<x id="PH" equiv-text="version"/>)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/bmd/bmda/bmda_settings-panel.ts</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="startPanelSandboxButton" datatype="html">
         <source>Sandbox</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
+          <context context-type="sourcefile">src/bmd/bmda/bmda_start-panel.component.html</context>
           <context context-type="linenumber">5,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="startPanelScenarioButton" datatype="html">
-        <source>Scenarios</source>
+      <trans-unit id="languageDefault" datatype="html">
+        <source>Default (<x id="PH" equiv-text="this.getDefaultLanguage()"/>)</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
-          <context context-type="linenumber">8,10</context>
+          <context context-type="sourcefile">src/bmd/bmdu/bmdu_language.service.ts</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="startPanelReplaysButton" datatype="html">
-        <source>Replays</source>
+      <trans-unit id="languageEn" datatype="html">
+        <source>English (<x id="PH" equiv-text="language"/>)</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdv/bmdv_start-panel.component.html</context>
-          <context context-type="linenumber">11,13</context>
+          <context context-type="sourcefile">src/bmd/bmdu/bmdu_language.service.ts</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3669050121913566304" datatype="html">
-        <source>Stable (<x id="PH" equiv-text="this.versionService.getStableVersion()"/>)</source>
+      <trans-unit id="languageSv" datatype="html">
+        <source>Swedish (<x id="PH" equiv-text="language"/>)</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
-          <context context-type="linenumber">113</context>
+          <context context-type="sourcefile">src/bmd/bmdu/bmdu_language.service.ts</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="123305201759419464" datatype="html">
-        <source>Latest (<x id="PH" equiv-text="this.versionService.getLatestVersion()"/>)</source>
+      <trans-unit id="languageUnsupported" datatype="html">
+        <source>Unsupported (<x id="PH" equiv-text="language"/>)</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
-          <context context-type="linenumber">115</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3666195172774554282" datatype="html">
-        <source>Other (<x id="PH" equiv-text="version"/>)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmdvm/bmdvm_settings-panel.ts</context>
-          <context context-type="linenumber">117</context>
+          <context context-type="sourcefile">src/bmd/bmdu/bmdu_language.service.ts</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
     </body>
