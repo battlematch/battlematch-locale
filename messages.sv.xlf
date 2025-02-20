@@ -2,28 +2,27 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="accountPanelSignInButton" datatype="html">
-        <source>Sign in</source>
+      <trans-unit id="appLogInButton" datatype="html">
+        <source>Log In</source>
         <target>Logga in</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/m_browser/m_browser.app.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="accountPanelLogInButton" datatype="html">
+        <source>Log In</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmda/bmda_account-panel.component.html</context>
           <context context-type="linenumber">11,12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="accountPanelSignOutButton" datatype="html">
-        <source>Sign out</source>
+      <trans-unit id="accountPanelLogOutButton" datatype="html">
+        <source>Log Out</source>
         <target>Logga ut</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmda/bmda_account-panel.component.html</context>
           <context context-type="linenumber">12,13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="appSignInButton" datatype="html">
-        <source>Sign in</source>
-        <target>Logga in</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmda/bmda_app.component.html</context>
-          <context context-type="linenumber">29,31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="settingsPanelTitle" datatype="html">
@@ -32,30 +31,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmda/bmda_settings-panel.component.html</context>
           <context context-type="linenumber">6,7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="versionStable" datatype="html">
-        <source>Stable (<x id="PH" equiv-text="this.versionService.getStableVersion()"/>)</source>
-        <target>Stable (<x id="PH" equiv-text="this.versionService.getStableVersion()"/>)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmda/bmda_settings-panel.ts</context>
-          <context context-type="linenumber">114</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="versionLatest" datatype="html">
-        <source>Latest (<x id="PH" equiv-text="this.versionService.getLatestVersion()"/>)</source>
-        <target>Latest (<x id="PH" equiv-text="this.versionService.getLatestVersion()"/>)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmda/bmda_settings-panel.ts</context>
-          <context context-type="linenumber">116</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="versionOther" datatype="html">
-        <source>Other (<x id="PH" equiv-text="version"/>)</source>
-        <target>Other (<x id="PH" equiv-text="version"/>)</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/bmd/bmda/bmda_settings-panel.ts</context>
-          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="startPanelSandboxButton" datatype="html">
@@ -71,7 +46,7 @@
         <target>Förvalt (<x id="PH" equiv-text="this.getDefaultLanguage()"/>)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdu/bmdu_language.service.ts</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="languageEn" datatype="html">
@@ -79,7 +54,7 @@
         <target>Engelska (<x id="PH" equiv-text="language"/>)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdu/bmdu_language.service.ts</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="languageSv" datatype="html">
@@ -87,7 +62,7 @@
         <target>Svenska (<x id="PH" equiv-text="language"/>)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdu/bmdu_language.service.ts</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="languageUnsupported" datatype="html">
@@ -95,7 +70,7 @@
         <target>Ogiltigt (<x id="PH" equiv-text="language"/>)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/bmd/bmdu/bmdu_language.service.ts</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
     </body>
